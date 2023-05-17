@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title  %}
+    About
+{% endblock  %}
+
+{% block content %}
+<h1>All About {{my_name}} and {{namer}}</h1>
+<img class="mx-auto d-block" src="{% static 'images/rockoon.jpeg' %}" alt="Rock-oon!!" width="300" >
+
+{% endblock %}
